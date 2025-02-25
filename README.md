@@ -4,15 +4,18 @@
 
 ![](./framework.svg)
 
-> [Build Yourself Before Collaboration: Vertical Federated Learning with Limited Aligned Samples]()
+> [Build Yourself Before Collaboration: Vertical Federated Learning with Limited Aligned Samples](https://ieeexplore.ieee.org/abstract/document/10896832)
 > 
 > Wei Shen, Mang Ye, Wei Yu, Pong C. Yuen
 > 
 > Wuhan University, Hong Kong Baptist University
 >
-> **Abstract** Vertical Federated Learning (VFL) has emerged as a significant privacy-preserving learning paradigm for collaboratively training models with distributed features of shared samples. However, the performance of VFL is hindered when the number of shared/aligned samples is limited. Existing methods attempt to address this challenge with feature generation and pseudo-label estimation for unaligned samples, struggling with unavoidable noise introduced in the generation process. In this work, we propose Local Enhanced Effective Vertical Federated Learning (LEEF-VFL), which fully utilizes the unaligned samples in local client learning before collaboration. Specifically, existing methods deprecate private labels that are irrelevant to the collaboration task. However, we propose using private labels within each client to learn from all the local samples and these private labels, which leads to the construction of robust local models and forms the foundation for effective collaborative learning. Besides, we reveal the distribution bias caused by the limited number of aligned samples and propose mitigating it by minimizing discrepancies in data distribution. The proposed LEEF-VFL is both privacy-preserving and efficient without additional information exchanges and communications. Extensive experiments demonstrate the effectiveness of our method in addressing the adverse influences of limited aligned samples.
+> **Abstract** Vertical Federated Learning (VFL) has emerged as a crucial privacy-preserving learning paradigm that involves training models using distributed features from shared samples. However, the performance of VFL can be hindered when the number of shared or aligned samples is limited, a common issue in mobile environments where user data are diverse and unaligned across multiple devices. Existing approaches use feature generation and pseudo-label estimation for unaligned samples to address this issue, unavoidably introducing noise during the generation process. In this work, we propose Local Enhanced Effective Vertical Federated Learning (LEEF-VFL), which fully utilizes unaligned samples in the local learning before collaboration. 
+Unlike previous methods that overlook private labels owned by each client, we leverage these private labels to learn from all local samples, constructing robust local models to serve as solid foundations for collaborative learning. Additionally, we reveal that the limited number of aligned samples introduces distribution bias from global data distribution. In this case, we propose to minimize the distribution discrepancies between the aligned samples and the global data distribution to enhance collaboration. Extensive experiments demonstrate the effectiveness of LEEF-VFL in addressing the challenges of limited aligned samples, making it suitable for VFL in mobile computing environments.
 
 ## Last Update
+
+**2025/02/20** Accepted by IEEE Transactions on Mobile Computing (TMC 2025).
 
 **2024/05/23** We have released the official codes.
 
