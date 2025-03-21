@@ -37,3 +37,18 @@ pip install requirements.txt
 cd ./experiments/cifar10/Ours
 python main.py
 ```
+
+## Citation
+
+Please cite our work in your publications if it helps your research:
+
+```
+@article{shen2025limitedvfl,
+  title={Build Yourself Before Collaboration: Vertical Federated Learning with Limited Aligned Samples},
+  author={Shen, Wei and Ye, Mang and Yu, Wei and Yuen, Pong C.},
+  journal={IEEE Transactions on Mobile Computing},
+  year={2025}
+}
+```
+
+Contact: [weishen@whu.edu.cn](mailto:weishen@whu.edu.cn)
