@@ -40,7 +40,7 @@ python main.py
 
 ## Citation
 
-Please cite our work in your publications if it helps your research:
+Please cite our work if it helps your research, thank you!
 
 ```
 @article{shen2025limitedvfl,
